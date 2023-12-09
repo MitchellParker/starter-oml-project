@@ -1,0 +1,10 @@
+description <http://example.com/starter/description/my-description#> as my-description {
+	
+	uses <http://example.com/starter/vocabulary/my-vocabulary#> as vocab
+	
+	instance myInstance1 : vocab:MyConcept
+	instance myInstance2 : vocab:MyConcept [
+		vocab:relatesTo myInstance1
+	]
+	
+}

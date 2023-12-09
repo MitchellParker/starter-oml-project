@@ -1,0 +1,3 @@
+description bundle <http://example.com/starter/description/bundle#> as ^bundle {
+	includes <http://example.com/starter/description/my-description#>
+}

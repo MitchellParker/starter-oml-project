@@ -1,0 +1,14 @@
+vocabulary <http://example.com/starter/vocabulary/my-vocabulary#> as my-vocabulary {
+	
+	aspect MyAspect
+
+	concept MyConcept < MyAspect
+	
+	relation entity MyRelation [
+		from MyAspect
+		to MyConcept
+		forward relatesTo
+	]
+
+	
+}
